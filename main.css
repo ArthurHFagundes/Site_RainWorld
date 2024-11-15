@@ -1,0 +1,179 @@
+* /** RESET **/
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body img /** BORDA CIRCULAR DAS IMAGENS **/
+{
+    border-radius: 3%;
+}
+
+header nav li, section h2, section h3 /** FONTE DOS TÍTULOS **/
+{
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+}
+
+header /** CABEÇALHO (FUNDO DE COR DO TEXTO) **/
+{
+    background-image: linear-gradient( to bottom, #180325, #58217a);
+    color:#ecf0f1;
+}
+
+header img /** LOGO SITE */
+{
+    height: 120px;
+}
+
+header nav li /** SELETORES DO CABEÇALHO **/
+{
+    display: inline;
+    margin-left: 16px;
+}
+
+header nav a /** LINKS DOS SELETORES DO CABEÇALHO **/
+{
+    color:#ecf0f1;
+    text-decoration: none;
+}
+
+header .container /** ITENS INSERIDOS NO CABEÇALHO **/
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/** ▲ CABEÇALHO ▲ **/
+/** ▼ ELEMENTOS DA PÁGINA ▼ **/
+
+.container /** ITENS ou ELEMENTOS DO SITE **/
+{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 24px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+section h2 /** TAMANHO DO SUB-TÍTULO **/
+{
+    font-size: 50px;
+}
+
+section h2, section h3 /** MARGEM INFERIOR NOS SUB-TÍTULOS **/
+{
+    margin-bottom: 16px;
+}
+
+#story div img /** IMAGEM DOS ""CONCEITOS BÁSICOS"" **/
+{
+    max-height: 300px;
+    margin-left: 10px;
+}
+
+section div > img /** IMAGEM DOS ""CONCEITOS BÁSICOS"" **/
+{
+    margin-right: 32px;
+    max-height: 400px;
+}
+
+#story div > p /** MARGEM SUPERIOR NOS PARÁGRAFOS **/
+{
+    margin-top: 16px;
+}
+
+section p /** ESTILO DOS PARÁGRAFOS **/
+{
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#story2 /** SEGUNDA PARTE DA HISTÓRIA **/
+{
+    margin-top: 20px;
+}
+
+#rate .container div /** ESTILO DA PARTE DAS CRÍTICAS **/
+{
+    display: block;
+    justify-content: space-around
+}
+
+/** ▲ ELEMENTOS DA PÁGINA ▲ **/
+/** ▼ FORMULÁRIO ▼ **/
+
+form input /** ESTILO DO FOMULÁRIO **/
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 15px;
+}
+
+#rate-game /** ESTILO DO FOMULÁRIO **/
+{
+    background-color:crimson;
+    display: block;
+    text-align: center;
+    padding: 18px 0;
+}
+
+#rate-game h3 /** COR DA FONTE DO FOMULÁRIO **/
+{
+    color: #fff;
+}
+
+form input:focus /** ESTILO DAS CAIXAS DE TEXTO ((QUANDO SELECIONADAS)) **/
+{
+    outline-color:#fff;
+    font-size: 18px;
+}
+
+form input::-webkit-inner-spin-button /** ESTILO DAS CAIXAS DE TEXTO ((QUANDO SELECIONADAS)) **/
+{
+    -webkit-appearance: none;
+}
+
+/** ▲ FORMULÁRIO ▲ **/
+/** ▼ ""ONDE ENCONTRA-LO"" ▼ **/
+
+#where-list li /** ORGANIZAÇÃO DE ""ONDE ENCONTRA-LO"" **/
+{
+    display: inline;
+}
+
+#where-list a /** ESTILO DO LINK **/
+{
+    text-decoration: none;
+}
+
+#where-list img /** ESTILO DAS IMAGENS **/
+{
+    height: 80px;
+    margin-right: 10px;
+    display: inline;
+}
+
+#where .container /** MARGEM DE ""ONDE ENCONTRA-LO"" **/
+{
+    margin: 50px;
+}
+
+/** ▲ ""ONDE ENCONTRA-LO"" ▲ **/
+/** ▼ RODAPÉ ▼ **/
+
+footer /** RODAPÉ **/
+{
+    background-image: linear-gradient( to top, #180325, #36104e);
+    color: #fff;
+    padding: 10px 10px;
+}
